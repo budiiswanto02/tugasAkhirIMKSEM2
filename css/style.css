@@ -1,0 +1,366 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  margin: 0;
+  width: 100%;
+  padding: 0%;
+}
+
+nav {
+  background-color: #110505;
+}
+
+button {
+  color: white !important;
+  border-color: white !important;
+}
+
+button:hover {
+  background-color: #d9d9d9 !important;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.nav-mobile {
+  display: none;
+}
+
+.desktop {
+  justify-content: space-around;
+  padding-left: 2.5rem;
+}
+
+.nav-link {
+  text-align: center;
+  color: white;
+  font-family: Rockwell;
+  font-size: 1.2rem;
+  background-color: black;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.nav-link:hover {
+  background-color: white;
+  color: #000000;
+}
+
+.page {
+  background-color: #634324;
+}
+
+.desktop-size {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-inner {
+  display: flex;
+}
+
+#logo-title {
+  padding: 0;
+  background-color: #110505;
+}
+#title {
+  background-color: #110505;
+  padding: 0 1rem;
+  padding-bottom: 1rem;
+  font-family: Rockwell;
+  text-align: center;
+}
+
+#monkey {
+  width: 30%;
+}
+.link-lokasi {
+  
+  color: white;
+  font-family: Rockwell;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+.link-lokasi a {
+  color: white;
+  font-size: 2rem;
+}
+#perkenalan,
+#beragam-menu {
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 10%;
+}
+#perkenalan {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/aboutus/aboutushome.jpg");
+  background-position: center;
+}
+#beragam-menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/menu/depan.png");
+  background-position: center;
+}
+#perkenalan h1,
+#beragam-menu h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+#perkenalan p,
+#beragam-menu p {
+  font-size: 2rem;
+  font-family: serif;
+}
+
+#penutup {
+  background-color: #110505;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+#penutup img {
+  width: 80%;
+  height: auto;
+}
+footer {
+  background-color: #110505;
+  margin-top: 0;
+  padding: 3% 6% 0% 6% !important;
+  display: flex;
+  justify-content: center;
+}
+.social-media {
+  border-top: 0.3rem solid white;
+  padding: 0%;
+}
+.social-media li {
+  padding: 2rem 1rem;
+  list-style-type: none;
+}
+.social-media img {
+  width: 2.5rem;
+}
+.sinopsisnews {
+  text-align: center;
+  font-size: 2rem;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  bottom: initial;
+  transform: translate(-50%, -50%);
+}
+
+.sinopsisnews p {
+  font-family: serif;
+}
+
+.sinopsisnewsparagraf {
+  margin: 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+
+#title h1 {
+  text-align: center;
+  color: white;
+  font-size: 6rem;
+  margin: 0;
+}
+
+#sejarahomelas {
+  padding: 5% 30%;
+  background-color: #110505;
+  color: white;
+}
+
+#tahun {
+  text-align: center;
+}
+
+#tujuan {
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+#sejarah img {
+  width: 100%;
+}
+
+.gambarnews {
+  width: 100%;
+  height: auto;
+}
+
+#colleague {
+  text-align: center;
+  background-color: #110505;
+  padding: 3% 5%;
+}
+
+#colleague img {
+  width: 50%;
+}
+
+#colleague a {
+  margin-top: 2rem;
+}
+
+.tombolcolleague {
+  padding-top: 1rem;
+}
+
+#form-feedback,
+#form-pekerja,
+#form-cabang {
+  padding: 2% 25%;
+  background-color: #110505;
+  text-align: center;
+}
+.form-data {
+  text-align: center;
+}
+
+.form-data label {
+  font-size: 1.5rem;
+  color: white;
+}
+
+#menuomelos {
+  text-align: center;
+  background-color: #110505;
+  padding-bottom: 1rem;
+}
+
+.minuman {
+  margin-top: 1.5rem;
+}
+
+#menuomelos img {
+  width: 60%;
+}
+
+@media screen and (max-width: 991px) {
+  nav {
+    background-color: #613e0f;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+  .navbar-toggler:hover {
+    background-color: #000000 !important;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+  }
+  .nav-link {
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+  }
+  #perkenalan h1,
+  #beragam-menu h1 {
+    font-size: 2.5rem;
+  }
+  #perkenalan p,
+  #beragam-menu p,
+  .sinopsisnews p {
+    font-size: 1.5rem;
+  }
+  .link-lokasi a {
+    font-size: 1.2rem;
+  }
+  #sejarahomelas {
+    padding: 5% 20%;
+  }
+  #title h1 {
+    font-size: 3rem;
+  }
+  #monkey {
+    width: 60%;
+  }
+  .colleague-pilihan {
+    margin-top: 2rem;
+  }
+  #form-feedback,
+  #form-cabang,
+  #form-pekerja {
+    padding: 2% 15%;
+  }
+  button {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .social-media img {
+    width: 1.8rem;
+  }
+  #perkenalan h1,
+  #beragam-menu h1,
+  #tahun {
+    font-size: 2rem;
+  }
+  #perkenalan p,
+  #beragam-menu p,
+  .sinopsisnews p,
+  #tujuan {
+    font-size: 1rem;
+  }
+  #sejarahomelas {
+    padding: 5% 15%;
+  }
+
+  button {
+    font-size: 0.8rem !important;
+  }
+  .form-data label,
+  .form-data input,
+  .form-data textarea,
+  .form-data select {
+    font-size: 1rem;
+  }
+  #monkey {
+    width: 80%;
+  }
+}
+
+@media screen and(max-width:400px) {
+  .sinopsisnews p {
+    margin: 0 !important;
+  }
+  button {
+    padding: 0.5rem 1rem !important;
+  }
+  #perkenalan h1,
+  #beragam-menu h1,
+  #tahun {
+    font-size: 1.5rem;
+  }
+  #perkenalan p,
+  #beragam-menu p,
+  .sinopsisnews p,
+  #tujuan {
+    font-size: 0.8rem;
+  }
+}
